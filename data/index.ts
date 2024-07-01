@@ -77,6 +77,16 @@ export const projects = [
     img: "/projects/threads.jpg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
     link: "https://threads.saintx.uz",
+    linkTitle: "/threads.saintx.uz",
+  },
+  {
+    id: 2,
+    title: "Metaverse",
+    des: "Metaversus is real, explore new worlds and new emotions!",
+    img: "/projects/metaverse.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/fm.svg"],
+    link: "https://metaverse.saintx.uz",
+    linkTitle: "/metaverse.saintx.uz",
   },
 ];
 
