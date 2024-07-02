@@ -88,6 +88,15 @@ export const projects = [
     link: "https://metaverse.saintx.uz",
     linkTitle: "/metaverse.saintx.uz",
   },
+  {
+    id: 3,
+    title: "Apple iPhone",
+    des: "Apple iPhone website representation!",
+    img: "/projects/iphone.png",
+    iconLists: ["/tail.svg", "/three.svg", "/gsap.svg"],
+    link: "https://apple.saintx.uz",
+    linkTitle: "/apple.saintx.uz",
+  },
 ];
 
 export const testimonials = [
