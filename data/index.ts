@@ -97,6 +97,15 @@ export const projects = [
     link: "https://apple.saintx.uz",
     linkTitle: "/apple.saintx.uz",
   },
+  {
+    id: 4,
+    title: "Figma",
+    des: "Popular UI-UX website clone via Next.js with all features!",
+    img: "/projects/figma.png",
+    iconLists: ["/next.svg", "/ts.svg", "/tail.svg"],
+    link: "https://figma.saintx.uz",
+    linkTitle: "/figma.saintx.uz",
+  },
 ];
 
 export const testimonials = [
