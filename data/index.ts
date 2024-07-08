@@ -106,6 +106,15 @@ export const projects = [
     link: "https://figma.saintx.uz",
     linkTitle: "/figma.saintx.uz",
   },
+  {
+    id: 5,
+    title: "Careplus",
+    des: "The modern healthcare, patient management system!",
+    img: "/projects/careplus.png",
+    iconLists: ["/next.svg", "/ts.svg", "/tail.svg"],
+    link: "https://careplus.saintx.uz",
+    linkTitle: "/careplus.saintx.uz",
+  },
 ];
 
 export const testimonials = [
