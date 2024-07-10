@@ -67,7 +67,7 @@
   }
 }
 
-@layer base {
+@layer components {
   * {
     @apply border-border !scroll-smooth;
     user-select: none;

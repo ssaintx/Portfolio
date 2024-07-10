@@ -13,25 +13,25 @@ const RecentProjects = () => {
         <span className="text-purple"> recent projects</span>
       </h1>
       <div className="flex flex-wrap items-center justify-center p-4 gap-16 mt-10">
-        {projects.map((item) => (
+        {projects.map(({ id, title, des, img, iconLists, link, linkTitle }) => (
           <div
             className="lg:min-h-[32.5rem] h-[25rem] flex items-center justify-center sm:w-96 w-[80vw]"
-            key={item.id}
+            key={id}
           >
             <PinContainer
-              title={item.linkTitle}
-              href={item.link}
+              title={linkTitle}
+              href={link}
             >
               <div className="relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[20vh] lg:h-[30vh] mb-10">
                 <img
-                  src={item.img}
+                  src={img}
                   alt="cover"
                   className="lg:rounded-3xl"
                 />
               </div>
 
               <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1">
-                {item.title}
+                {title}
               </h1>
 
               <p
@@ -41,12 +41,12 @@ const RecentProjects = () => {
                   margin: "1vh 0",
                 }}
               >
-                {item.des}
+                {des}
               </p>
 
               <div className="flex items-center justify-between mt-7 mb-3">
                 <div className="flex items-center">
-                  {item.iconLists.map((icon, index) => (
+                  {iconLists.map((icon, index) => (
                     <div
                       key={index}
                       className="border border-white/[.2] rounded-full bg-black lg:w-10 lg:h-10 w-8 h-8 flex justify-center items-center"
@@ -61,7 +61,7 @@ const RecentProjects = () => {
 
                 <div className="flex justify-center items-center">
                   <p className="flex lg:text-xl md:text-xs text-sm text-purple">
-                    <a href={item.link}>Check Live Site</a>
+                    <a href={link}>Check Live Site</a>
                   </p>
                   <FaLocationArrow className="ms-3" color="#CBACF9" />
                 </div>
