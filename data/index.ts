@@ -115,6 +115,15 @@ export const projects = [
     link: "https://careplus.saintx.uz",
     linkTitle: "/careplus.saintx.uz",
   },
+  {
+    id: 6,
+    title: "Drawio",
+    des: "The popular online diagramming tool ReactJs implementation!",
+    img: "/projects/drawio.png",
+    iconLists: ["/ts.svg", "/tail.svg"],
+    link: "https://drawio.saintx.uz",
+    linkTitle: "/drawio.saintx.uz",
+  },
 ];
 
 export const testimonials = [
